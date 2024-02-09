@@ -1,4 +1,4 @@
-This file contains the details described in my email to you for each file:
+This file describes each of the other files in the edgeR_GO_analysis folder
 
 First - I parsed out which of those samples are outliers. It's one control and one exposed sample from family 1, so I removed them and re-ran the initial steps. I've attached two images here. allsamples_mds is prior to removing those outliers (there's a legend this time!:) ) and removeoutliers_mds is what it looks like when I remove those family 1 samples. I think it looks a little better? 
 
