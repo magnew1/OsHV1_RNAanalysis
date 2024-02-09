@@ -4,7 +4,7 @@ First - I parsed out which of those samples are outliers. It's one control and o
 
 # Some initial results for you to ponder:
 
-# GO analysis
+## GO analysis
 
 TOL.SUS_GOcategories.csv = GO terms that are significantly over or under expressed in tolerant vs. susceptible animals. From my understanding, this does not use the significance values from the edgeR results directly, as it looks for "whether each GO category is significantly enriched by either up or down-regulated genes" (more on that here under "How it works", I'm still trying to wrap my brain around it a bit). 
 
@@ -12,7 +12,7 @@ TOL.SUS_GOcategories_tree = a graphical representation of those significant GO c
 
 I can repeat all of this in any combination (i.e. for individual families). When I did so for family 16, there are TONS of DE genes (459 up, 238 down) and a tom of Go terms (222 vs displayed in a tree like I have for TOL.SUS but that one only has 101 terms). 
 
-# DE genes 
+## DE genes 
 TOL.SUS_sigDEgenes.csv = Significantly up (1) and down (2) regulated genes between tolerant and susceptible animals (taking into account exposed vs. control). This result is new since I removed those outlier samples. 
 
 A different approach:
